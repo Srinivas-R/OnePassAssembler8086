@@ -1,0 +1,6 @@
+MOV AL,BL
+MOV CX,test
+ADD BX, [1234H]
+test : ADD AX,50H[DI]
+ADC BX, [SI]
+MOV CX,10H[BX][SI]
